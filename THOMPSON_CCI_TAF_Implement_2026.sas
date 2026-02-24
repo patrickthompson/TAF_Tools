@@ -11,6 +11,27 @@
 * Description:  This script extracts diagnosis codes from TAF OTH files,
 * stacks them into a long format, and applies the NCI/Charlson
 * comorbidity macro to identify 16 chronic conditions.
+*
+* Citation (this script):
+*   Thompson, P.A. (2026). TAF_Tools: SAS Code for T-MSIS Analytic Files.
+*   Institute for Health Policy, Michigan State University.
+*   https://github.com/patrickthompson/TAF_Tools
+*
+* Citation (NCI Comorbidity Macro, base code):
+*   National Cancer Institute, Healthcare Delivery Research Program.
+*   Comorbidity SAS Macro (2021 version).
+*   https://healthcaredelivery.cancer.gov/seermedicare/considerations/macro-2021.html
+*   Updated: September 24, 2021.
+*
+* Citation (Charlson Index):
+*   Charlson ME, Pompei P, Ales KL, MacKenzie CR. A new method of classifying
+*   prognostic comorbidity in longitudinal studies: development and validation.
+*   J Chronic Dis. 1987;40(5):373-383.
+*
+* Citation (Claims-based adaptation):
+*   Klabunde CN, Potosky AL, Legler JM, Warren JL. Development of a
+*   comorbidity index using physician claims data.
+*   J Clin Epidemiol. 2000;53(12):1258-1267.
 ******************************************************************************/
 
 /*----------------------------------------------------------------------------
